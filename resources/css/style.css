@@ -12,6 +12,10 @@
       - 'Open Sans', sans-serif
   */
 
+  /*Colors:
+      -
+  */
+
 /*Global Styles Section*/
 
 body {
@@ -86,9 +90,13 @@ nav {
 }
 
 nav a {
-  color: black;
+  color: #021927;
   text-decoration: none;
   padding: 0.5rem 1.5rem;
+}
+
+nav a:hover {
+  background-color: #EAF1FF;
 }
 
 nav .link {
@@ -96,7 +104,7 @@ nav .link {
 }
 
 nav .navButton {
-  color: #E0A65E;
+  color: #53778D;
   background-color: #021927;
   border-radius: 10px;
   margin-left: 1.5rem;
@@ -119,8 +127,11 @@ nav .navButton {
   /* Primary Banner */
 h1 {
   font-size: 3rem;
-  font-weight: bold;
   padding-bottom: 1.5rem;
+}
+
+.primary {
+  align-items: center;
 }
 
 .primary h5 {
@@ -138,7 +149,7 @@ h1 {
 
 .startButton a {
   font-weight: bold;
-  color: #E0A65E;
+  color: #53778D;
 }
 
   /* Secondary and Exhibit Banner Content */
